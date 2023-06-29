@@ -1,7 +1,7 @@
 import Header from '@/components/header'
 import Head from 'next/head'
-import Image from 'next/image'
 import './globals.css'
+import Navbar from '@/components/navbar/Navbar'
 
 export const metadata = {
   title: 'Hulu 2.0',
@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+      <Navbar/>
     </div>
   )
 }
